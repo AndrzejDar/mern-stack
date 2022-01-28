@@ -1,7 +1,7 @@
 import axios from "axios";
 import { GET_ITEMS, ADD_ITEM, DELETE_ITEM, ITEMS_LOADING } from "./types";
 
-axios.defaults.baseURL = "http://localhost:5000/"; //CORS WORKAROUND, hardcoding port
+//axios.defaults.baseURL = "http://localhost:5000/"; //CORS WORKAROUND, hardcoding port COMENT FOR PRODUCTION SERVER!!!!!!
 // axios.defaults.withCredentials = false;
 // axios.defaults.crossDomain = true;
 
