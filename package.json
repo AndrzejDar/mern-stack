@@ -8,6 +8,8 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
+    "clientInstall": "npm i --prefix client",
+    "clientBuild": "react-scripts build --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "proxy": "http://localhost:5000/",
